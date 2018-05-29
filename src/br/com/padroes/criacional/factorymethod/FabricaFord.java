@@ -1,12 +1,11 @@
 package br.com.padroes.criacional.factorymethod;
 
-public class FabricaFiat implements FabricaDeCarro {
+public class FabricaFord implements FabricaDeCarro {
 
 	@Override
 	public Carro criarCarro() {
-		
-		return new Palio();
-		
+	
+		return new Fiesta();
 	}
 
 }

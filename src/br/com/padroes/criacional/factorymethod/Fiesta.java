@@ -1,11 +1,10 @@
 package br.com.padroes.criacional.factorymethod;
 
-public class Palio implements Carro {
+public class Fiesta implements Carro {
 
 	@Override
 	public void exibirInfo() {
-		
-	  System.out.println("Carro: Palio (Fabricante: Fiat)");
+	System.out.println("Carro : Fiesta  (Fabrica Ford)");
 		
 	}
 
