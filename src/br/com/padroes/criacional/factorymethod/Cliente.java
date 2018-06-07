@@ -1,6 +1,6 @@
 package br.com.padroes.criacional.factorymethod;
 
-public class TestFactoryMethod {
+public class Cliente {
 
 	public static void main(String[] args) {
 	
