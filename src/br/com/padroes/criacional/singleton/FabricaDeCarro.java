@@ -2,9 +2,9 @@ package br.com.padroes.criacional.singleton;
 
 public class FabricaDeCarro {
 	
-	public static FabricaDeCarro instancia;
+	private static FabricaDeCarro instancia;
 	
-	protected FabricaDeCarro(){
+	private FabricaDeCarro(){
 		
 	}
 	
