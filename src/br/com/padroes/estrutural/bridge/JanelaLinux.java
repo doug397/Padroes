@@ -1,4 +1,4 @@
-package br.com.padroes.criacional.bridge;
+package br.com.padroes.estrutural.bridge;
 
 public class JanelaLinux implements JanelaImplementada {
 	

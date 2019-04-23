@@ -7,7 +7,7 @@ public class ListCommandIterator implements Iterator {
 	private List<ICommand> commands;
 	private int posicao;
 	
-	public ListCommandIterator( List<ICommand> commands) {
+	public ListCommandIterator(List<ICommand> commands) {
 		this.commands = commands;
 		posicao = 0;
 	}
